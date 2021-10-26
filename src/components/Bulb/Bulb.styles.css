@@ -1,0 +1,36 @@
+.bulb-wrapper{
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    transition: all 2s;
+    transform: rotate(180deg);
+}
+
+.bulb-background-on{
+    transition: all 2s;
+    background: rgb(228,255,0);
+    background: radial-gradient(circle, rgba(225,221,9,1) 0%, rgba(225,221,9,1) 21%, rgba(255,255,255,0.6867121848739496) 44%, rgba(255,255,255,0) 100%);
+}
+
+.bulb-background-off{
+    transition: all 2s;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%,rgb(255, 255, 255) 21%,rgba(255, 255, 255, 0.687) 44%, rgba(255, 255, 255, 0) 100%);
+}
+
+.light-on {
+    fill: #ffdd09;
+}
+
+.light-off {
+    fill: #fff;
+}
+
+.fill-white {
+    fill: white;
+}
+
+.fill-gray {
+    fill: #b3b2b1;
+}
